@@ -10,4 +10,6 @@ let state // undefined will be printed
 
 email = "dc@yopmail.com" // email value will be updated
 
+/* var is not preferred due to issue in block scope and functional scope */
+
 console.table([accountId, email, password, city, state])
