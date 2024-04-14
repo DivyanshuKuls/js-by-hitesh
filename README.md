@@ -1,4 +1,4 @@
-# JS-BY-HITESH
+# JS By Hitesh
 JS revision through Hitesh Choudhary youtube channel.
 
 ---
