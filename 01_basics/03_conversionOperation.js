@@ -30,5 +30,44 @@ let booleanIsLoggedIn = Boolean(isLoggedIn)
 let someNumber = 56
 let stringNumber = String(someNumber)
 
-console.log(stringNumber)
-console.log(typeof stringNumber)
+// console.log(stringNumber)
+// console.log(typeof stringNumber)
+
+// ************************************Operations***************************************************
+
+let value = 5
+let negativeValue = -value
+
+// console.log(negativeValue) // It will print negative value
+// console.log(5+5);
+// console.log(5-5);
+// console.log(5*5);
+// console.log(5**5);
+// console.log(5/5);
+// console.log(5%4);
+
+let str1 = "Be"
+let str2 = " Postive"
+
+let str3 = str1 + str2
+console.log(str3)
+
+// console.log(5 + "2") // 52
+// console.log("5" + 2); // 52
+// console.log("5" + "2"); //52
+// console.log("5" + 2 + 3); //523
+// console.log(3 + 2 + "5"); //55
+
+// console.log(+true); // + does the conversion from boolean to number and it will print 1
+// console.log(+""); // + does the conversion from empty string to number and it will print 0 
+
+let num1, num2, num3
+num1 = num2 = num3 = 2 + 22 //(Not a good practice)
+
+console.log(num1, num2, num3)
+
+let counter = 100
+console.log(counter++); // print 100
+console.log(counter) // print 101
+
+// study pre and post increment from mdn
